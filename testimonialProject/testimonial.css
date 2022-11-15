@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.max-height {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../testimonialProject/customer-0.jpg") center/cover no-repeat fixed;
+}
+body {
+  font-family: "Lobster", cursive;
+}
+.col {
+  padding: 110px;
+}
+
+.title-heading {
+  color: #f15025;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.title-subheading {
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 35px;
+}
+.headers {
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+}
+.customer-card {
+  background: transparent !important;
+  color: white;
+  border: 0.05rem solid white;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: relative;
+  width: 700px;
+  height: 300px;
+  margin: 0px 395px;
+}
+#customer-text {
+  text-align: center;
+  font-size: large;
+  font-family: "PT Serif", serif;
+}
+/* #star{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 0px;
+} */
+.img-card {
+  border-radius: 50%;
+  margin: -40px 280px;
+}
+.star-icon {
+  color: #f15025;
+}
+.quote-icon {
+  font-size: 2rem;
+  color: #f15025;
+}
+.prevBtn,
+.nextBtn {
+  font-size: 1.5rem;
+  padding: 0.1rem;
+  color: #f15025;
+  border: 0.1rem solid #f15025;
+  display: inline-block;
+  position: absolute;
+  padding: 0.4rem;
+  border-radius: 50%;
+  transition: all 1s ease-in-out;
+  text-decoration: none;
+}
+.prevBtn:hover {
+  background: #f15025;
+  color: white;
+}
+.nextBtn:hover {
+  background: #f15025;
+  color: white;
+}
+.prevBtn {
+  top: 50%;
+  left: 0;
+  transform: translate(-120%, -50%);
+}
+.nextBtn {
+  top: 50%;
+  right: 0;
+  transform: translate(120%, -50%);
+}
+.trishul {
+  text-align: center;
+  padding: 15px;
+}
